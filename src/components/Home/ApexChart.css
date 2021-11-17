@@ -1,0 +1,26 @@
+
+#chart{
+
+    z-index:6;
+    width: 120vw;
+    left: -20vw;
+    margin-top: -300px;
+    /* top: -300px !important; */
+  }
+ @media(max-width:361px){
+    #chart{
+
+       
+        width: 200vw;
+        left: -100vw;
+        margin-top: -300px;
+        /* top: -300px !important; */
+      }  
+ }
+.apexcharts-toolbar,.apexcharts-xaxis,.apexcharts-yaxis,.apexcharts-gridlines-horizontal,apexcharts-gridlines-vertical,#SvgjsG1467{
+    display:none
+  }
+
+  .apexcharts-legend, .apexcharts-tooltip-text,.apexcharts-active,.apexcharts-xaxistooltip, .apexcharts-xaxistooltip-bottom,.apexcharts-tooltip-title,.apexcharts-tooltip{
+    display: none
+    }

@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    /* justify-content: space-around !important; */
+    align-items: center;
+    width: 100%;
+
+}
+.left_nav{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: green !important;
+}
+.right_nav{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: green !important;
+}
+.spacer{
+    flex: 1;
+}

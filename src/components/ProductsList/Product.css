@@ -1,0 +1,16 @@
+.p-img-card{
+    align-items: center;
+}
+.p-img{
+    width: 100%;
+    padding: 10px;
+}
+.Add-to-cart-action-div{
+    width: 400px;
+    margin:-15px 22px 10px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.Add-to-cart-action-div>.btn-primary{
+    width:140px ;
+}

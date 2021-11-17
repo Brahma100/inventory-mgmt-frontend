@@ -1,0 +1,59 @@
+.product{
+ 
+    height: 200rem;
+  }
+  .card-header ,.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px !important;
+    /* padding: 10px !important; */
+    justify-content: center;
+     background-color: white !important;
+     
+  }
+  .header{
+    /* padding: 2rem !important; */
+  
+  }
+  .header p{
+    color: rgba(59,62,102,.5)!important;
+  }
+  
+  .custom-scrollbar-css {
+    height: 200px;
+  
+  }
+  
+  
+  /* Custom Scrollbar using CSS */
+  .custom-scrollbar-css {
+    overflow-y: scroll;
+    overflow-x: none !important;
+  }
+  
+  /* scrollbar width */
+  .custom-scrollbar-css::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  /* scrollbar track */
+  .custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #eee;
+  }
+  
+  /* scrollbar handle */
+  .custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #00d2ff;
+    background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);
+  }
+  
+
+  /* body {
+    min-height: 100vh;
+    background-color: #00d2ff;
+    background-image: linear-gradient(to right, #d5e2e6 0%, #2c6ce4 100%);
+  } */
+  

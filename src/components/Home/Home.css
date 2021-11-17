@@ -1,0 +1,25 @@
+@media(max-width:991px){
+    .App{
+        background-position:top !important;
+    }
+}
+
+
+.intro_card .card{
+    box-shadow: none !important;
+}
+.intro_card,.banner-card{
+    z-index: 8;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.banner-card img{
+    width:100%;
+}
+.intro_card{
+    padding-top: 2rem;
+}
+.card-content{
+    padding-left: 1rem;
+}

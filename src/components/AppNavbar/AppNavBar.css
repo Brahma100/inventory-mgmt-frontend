@@ -1,0 +1,195 @@
+.navbar .navbar-light>.container{
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+}
+.navbar{
+    padding: 0;
+}
+.brand-text{
+    display: grid;
+}
+.brand-text1{
+    color: #ec8129;
+}
+.brand-text>span{
+    display: block;
+    text-transform: uppercase;
+    font-size: .62917rem;
+    opacity: .7;
+    padding: 4px 0 0 0;
+    color: #070919;
+}
+.brand-text1>span{
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    font-size: .62917rem;
+    opacity: .7;
+    padding: 4px 0 0 0;
+    color: white;
+}
+.brand-text>b{
+    font-size: 1rem;
+    font-weight: 600;
+    /* text-transform: lowercase; */
+}
+.brand-text1>b{
+    font-size: 1rem;
+    font-weight: 600;
+    /* text-transform: lowercase; */
+}
+.brand-text>b:hover{
+    color: #ec8129;
+}
+.brand-text1>b:hover{
+    color: #ffffff;
+}
+.nav-brand{
+
+    display: flex;
+}
+.nav-brand1{
+    margin-left: 20px;
+    margin-top: 10px;
+    z-index: 10;
+    display: flex;
+    /* border-bottom: 1px solid white; */
+}
+.nav-logo{
+    border: 1px solid black;
+    margin-right: 8px;
+    border-radius: .29rem;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    box-shadow: 1px 1px 3px rgba(7,9,25,.2);
+
+}
+.nav-logo1{
+    border: 1px solid orange;
+    margin-right: 8px;
+    border-radius: .29rem;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    box-shadow: 1px 1px 3px rgb(247, 247, 255);
+
+}
+/* to make admin navbar active backgroung transparent */
+.dropdown-list-nav:active, .dropdown-item:active{
+background: transparent;
+}
+.dropdown-list-nav{
+    /* background-color: red; */
+    width: 210px;
+    
+}
+.dropdown-list-item-logout:hover{
+    color: #e73a3a;
+    border-radius: 30px;
+    padding:6px 15px;
+    width: 170px;
+    background-color: #ffe1e7 !important;
+}
+.dropdown-list-item,.dropdown-list-item-logout{
+    border-radius: 30px;
+    padding:6px 15px;
+    width: 170px;
+    color: #7a7b97;
+ 
+}
+.dropdown-list-item:hover{
+    color: #3b44c1;
+    border-radius: 30px;
+    padding:6px 15px;
+    width: 170px;
+    background-color: #dbeaff !important;
+}
+.user-dropdown > button,.show>.btn-primary.user-dropdown.dropdown-toggle{
+    background:transparent !important;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: none;
+    padding:3px ;
+    border: none;
+    /* border-radius: 50% !important; */
+    color: black;
+}
+.user-avatar {
+    border-radius: 50%;
+    border: 1px solid blue;
+    height: 2.5rem;
+    box-shadow: 0 0.45rem  0.55rem rgba(60,68,177,.35);
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+
+    /* padding-right: 10px; */
+  }
+  
+.avatar {
+    height: 38px;
+    /* width: 40px !important; */
+  }
+  
+.status-overlay {
+    box-shadow:  0 0 10px 4px rgb(255, 255, 255);
+      -moz-box-shadow: 0 0 10px  4px rgb(255, 255, 255);
+      -webkit-box-shadow: 0 0 10px 4px rgb(255, 255, 255);
+      -o-box-shadow: 0 0 10px 4px rgb(255, 255, 255);
+    background-color: #67e96b;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 30px;
+    left: 24px;
+    z-index: 5;
+    padding: 2px;
+    border-radius: 12px;
+  }
+  
+  .bowtie-icon {
+    font-size: 16px;
+  }
+  
+  .success {
+    color: #4BAE4F;
+  }
+  
+  .waiting {
+    color: #808080;
+  }
+
+.user-dropdown.show>.btn-primary.dropdown-toggle,  .user-dropdown > button:hover,.user-dropdown > button:active,.user-dropdown > button:focus{
+    /* top: 50px; */
+    color: #4BAE4F !important;
+    background:transparent ;
+    padding:3px ;
+    /* box-shadow: none; */
+    border-radius: 0;
+    border: none ;
+}
+/* .dropdown>button::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    left: -50px;
+    background: red;
+} */
+/* p-top-a badge badge-success */
+.badge-circle{
+    color: transparent;
+    /* display: none; */
+    background: greenyellow;
+    width: 10px;
+    height: 10px;
+    left:-15px;
+    /* top:-10px initial; */
+}

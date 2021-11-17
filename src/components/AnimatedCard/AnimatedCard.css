@@ -1,0 +1,75 @@
+
+
+
+
+
+
+.cardlist{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   
+}
+.card-box{
+    /* width: fit-content;
+    min-width: 25vh;
+    height: 15vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    /* align-items: center; */
+}
+.card1{
+    background-image: linear-gradient(-20deg,#2b5876,#4e4376)!important;
+}
+.card2{
+    background-image: linear-gradient(90deg,#141e30,#243b55)!important;
+    
+}
+.card3{
+    background-image: linear-gradient(135deg,#6b73ff 10%,#000dff)!important;
+}
+.card4{
+    background-image: linear-gradient(135deg,#667eea,#764ba2)!important;
+}
+.bg-white-10 {
+    background: hsla(0,0%,100%,.1)!important;
+}
+.btn-icon {
+    display: inline-flex!important;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+.icon1{
+    font-size: 5vh !important;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 50%!important;
+    background-color: hsla(0,0%,100%,.1)!important;
+}
+.icon3{
+    font-size: 3vw;
+    /* margin: 15px; */
+    padding: 10px;
+    border-radius: 90%!important;
+    background-color: hsla(0,0%,100%,.1)!important;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.CircularProgressbar{
+    width: 10vh !important;
+    height: 10vh !important;
+    /* background-color: tomato; */
+    /* height: 30vh; */
+}
+.CircularProgressbar-path {
+    stroke: gray;
+    width: 30vh;
+    height: 30vh;
+  }
+  .value{
+      font-size: 24px !important;
+  }

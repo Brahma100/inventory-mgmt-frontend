@@ -1,0 +1,20 @@
+.App1{
+    /* margin-top: 10vw !important; */
+}
+.intro_card .card{
+    box-shadow: none !important;
+}
+.intro_card,.banner-card{
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.banner-card img{
+    width:100%;
+}
+.intro_card{
+    padding-top: 2rem;
+}
+.card-content{
+    padding-left: 1rem;
+}
